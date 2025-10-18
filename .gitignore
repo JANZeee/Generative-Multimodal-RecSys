@@ -1,0 +1,17 @@
+# 忽略所有数据、模型、输出和环境文件
+data/
+outputs/
+test_user_history.txt
+
+# 忽略Python和Conda的缓存/环境文件
+__pycache__/
+*.pyc
+.conda/
+env/
+venv/
+.ipynb_checkpoints/
+
+# 忽略特定于IDE/编辑器的文件
+.vscode/
+.idea/
+*.swp
